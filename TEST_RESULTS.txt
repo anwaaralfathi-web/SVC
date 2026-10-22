@@ -1,0 +1,4 @@
+Python syntax: PASS
+Security-hold static tests: 3 passed, 0 failed
+
+Tests cover only the emergency hold copy: syntax validity, guard ordering before database initialization, and fail-closed messaging. They do NOT test the deployed website, institutional SSO, row-level permissions, file scanning, database durability, or live security.
